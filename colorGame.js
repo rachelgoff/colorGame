@@ -82,8 +82,6 @@ resetButton.addEventListener("click", function(){
 	reset();
 })
 
-colorDisplay.textContent = pickedColor;
-
 
 function changeColors(color){
 	for (var i = 0; i < squares.length; i++){
